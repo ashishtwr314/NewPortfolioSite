@@ -12,10 +12,10 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="overlay">
+    <!-- <div class="overlay">
       <h1 id="name">ASHISH TIWARI</h1>
       <p>FULLSTACK DEVELOPER / DevOps ENGINEER</p>
-    </div>
+    </div> -->
 
     <div class="wrapper">
       <div class="left-bg"></div>
@@ -29,6 +29,10 @@
             </li>
             <li data-toggle="projects" class="toggle" id="projects-toggle">
               Projects
+              <div class="underline"></div>
+            </li>
+            <li data-toggle="skills" class="toggle" id="skills-toggle">
+              Skills
               <div class="underline"></div>
             </li>
             <li data-toggle="journey" class="toggle" id="journey-toggle">
@@ -254,9 +258,23 @@
             </div>
           </div>
         </div>
+
+        <div class="content skills" id="skills">
+          <h1>Skills</h1>
+        </div>
+
         <div class="content journey" id="journey">
           <h1>Journey</h1>
+          <div class="timeline">
+            <div class="line">
+              <div class="card timeline-card timeline-card-1">Card 1</div>
+              <div class="card timeline-card timeline-card-2">Card 2</div>
+              <div class="card timeline-card timeline-card-3">Card 3</div>
+              <div class="card timeline-card timeline-card-4">Card 4</div>
+            </div>
+          </div>
         </div>
+
         <div class="content contact" id="contact">
           <h1>Contact</h1>
           <div class="contacts-wrapper">
