@@ -1,0 +1,111 @@
+
+@font-face {
+    font-family: 'neue';
+    src: url('./assets/NeueMontreal-Regular.b755838d.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'neue';
+    src: url('./assets/NeueMontreal-Bold.6bf2ef6f.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'neue';
+    src: url('./assets/NeueMontreal-Medium.b9da7318.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+@font-face {
+    font-family: 'clash';
+    src: url('./assets/ClashGrotesk-Bold.57f53737.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'clash';
+    src: url('./assets/ClashGrotesk-Medium.ddee9ac9.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+
+*{
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+body {
+    font-family: 'clash', sans-serif;
+    font-style: normal;
+    cursor: none;
+    scroll-behavior: smooth;
+  
+}
+.custom-pointer {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0,0,0, 0.5); /* Customize the color */
+    border-radius: 50%;
+    pointer-events: none; /* Ensure the custom pointer doesn't interfere with interactions */
+    transform: translate(-50%, -50%);
+    filter: contrast();
+}
+
+#loader{
+    z-index: 100 !important;
+}
+
+.page{
+    height: 100vh;
+    
+}
+.animate-words{
+  line-height: 1.3;
+}
+.skillset > div:not(:last-child){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:45px;
+    height: 45px;
+    border: 1px dashed #dfa2a2aa;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: -8px;
+    background-color: #fff;
+}
+
+.navlinks li{
+  transition: all 0.4s;
+  text-align: right;
+}
+
+.navlinks li:hover{
+  letter-spacing: 10px;
+}
+
+
+
+
+.tech-used{
+  font-size: 16px;
+  max-width: 200px;
+  margin-top: 14px;
+}
+.imagecontainer{
+  background-size: 100%;
+  background-color: #280a0a5d;
+  background-blend-mode: overlay;
+  z-index: -100;
+}
