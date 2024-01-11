@@ -49,8 +49,9 @@ body {
     font-style: normal;
     cursor: none;
     scroll-behavior: smooth;
-  
+    overflow-x: hidden;
 }
+
 .custom-pointer {
     position: fixed;
     width: 50px;
