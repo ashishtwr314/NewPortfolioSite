@@ -105,8 +105,9 @@ body {
   margin-top: 14px;
 }
 .imagecontainer{
-  background-size: 100%;
+  background-size: cover;
   background-color: #280a0a5d;
   background-blend-mode: overlay;
   z-index: -100;
+  background-position: center center;
 }
